@@ -1,2 +1,3 @@
-include ':app'
+include ':app', ':app2'
 rootProject.name='Sub Repo Project'
+project(':app2').projectDir = new File('Libraryt/app2')
